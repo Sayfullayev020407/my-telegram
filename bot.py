@@ -28,7 +28,7 @@ def send_welcome(message):
     # URL encoded qilish
     profile_photo_encoded = urllib.parse.quote(profile_photo or '', safe='')
     web_app_url = (
-        f"https://https://web-production-832e.up.railway.app/?tg_id={tg_id}&username={username}"
+        f"https://web-production-832e.up.railway.app/?tg_id={tg_id}&username={username}"
         f"&first_name={first_name}&last_name={last_name}&profile_photo={profile_photo_encoded}"
     )
 
